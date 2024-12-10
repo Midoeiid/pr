@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  
+}
+
+body {
+  height: 100vh;
+  background-image: url(../img/pexels-lynxexotics-3802508.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -200px;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  box-shadow: 1px 1px 10px 5px #a70000;
+  /* background-color: #cba328; */
+  background: linear-gradient(0.25turn,  #a70000, #3b3a39, #a70000);
+  position: fixed;
+  width: 100%;
+}
+header .g{
+
+  color: #3b3a39;
+}
+header .h{
+  color: #a70000;
+}
+
+
+
+.logo {
+  font-size: 2em;
+  font-weight: 800;
+  color: #5c5346;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 10px;
+}
+nav ul li a {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #5c5346;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: #a70000;
+  transition: 0.5s;
+}
+.A{
+ 
+  box-shadow: 0 0 0 0;
+}
+.A h2{
+
+  font-size: 40px;
+  padding-bottom: 20px ;
+  font-family: 'Times New Roman', Times, serif;
+  color: #3b3a39;
+}
+.M{
+    color: #000000;
+    font-size: 30px;
+    
+}
+.M:hover{
+    color: #3b3a39;
+}
+
+/* //////////////section 2/////////////// */
+.main {
+  padding: 300px 200px;
+}
+section div {
+  color: white;
+  line-height: 30px;
+}
+/* section div h1,h2,a{
+    padding: 10px;
+ } */
+section div h1 {
+  font-size: 3.5em;
+  font-size: 40px;
+  color: #a70000;
+  text-transform: uppercase;
+}
+section div h2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: xx-large;
+color: #3b3a39;
+}
+section div button {
+  margin: 50px 0;
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+section div button:hover {
+  background-color:#3b3a39 ;
+  color: white;
+  transform: scale(1.1);
+}
+.icons a i {
+  font-size: 35px;
+  color: white;
+  margin-left: 5px;
+  transition: 1s;
+}
+.icons a i:hover {
+  color: #a70000;
+  transform: scale(1.5);
+}
+.cards {
+  background: linear-gradient(0.25turn,  #a70000, #3b3a39, #a70000);
+  /* background-image: url(tech.jpg); */
+  /* background: transparent;
+  backdrop-filter: blur(15px); */
+  margin-top: 170px;
+  padding: 100px 0;
+}
+.title {
+  text-align: center;
+  font-size: 52px;
+  color: white;
+  margin-bottom: 20px;
+}
+.login {
+  color: white;
+  font-size: 1.5em;
+}
+.faceicon {
+  color: red;
+  font-size: 40px;
+}
+.card {
+  background-color: white;
+  box-shadow: 0 2px 4px 2px #29292974;
+  width: 350px;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.icon img {
+  width: 150px;
+}
+.info {
+  color: black;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+}
+.projects{
+background-color: black;
+}
+.projects .title{
+  padding-top: 60px;
+}
+.project-card{
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  width:25em;
+  margin: 20px;
+  transition: 0.7s;
+}
+.project-card:hover{
+  transform: scale(1.1);
+}
+.project-card img{
+  width: 100%;
+  border-radius: 10px;
+}
+.pp{
+  color: black;
+}
+.proj-link{
+  display: flex;
+  justify-content: space-between;
+}
+.info-card{
+  padding: 10px;
+}
+.info-card h2{
+  color: black ;
+}
